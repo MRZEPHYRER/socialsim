@@ -1,0 +1,55 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local caches
+.cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build and packaged application output
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large CSV data files
+*.csv
+
+# Generated simulation and analysis output
+output/
+results/
+logs/
+test/output/
+analysis/output/
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Windows and macOS system files
+Thumbs.db
+.DS_Store

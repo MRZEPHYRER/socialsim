@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "branch_name": "CONTROL",
+  "output_dir": "C:\\Users\\TOMZOU\\anaconda_projects\\socialsim\\test\\step17g_p9dc5anj\\pilot\\CONTROL",
+  "elapsed_seconds": 114.341115,
+  "setup_seconds": 0.187175,
+  "simulation_seconds": 112.835169,
+  "finalize_seconds": 1.306801,
+  "final_global_step": 520,
+  "final_population": 7287,
+  "final_households": 2714,
+  "final_firms": 1,
+  "final_capital_good_firms": 1,
+  "final_employment": 5675,
+  "final_household_cash": 7189374.511051622,
+  "min_household_cash": 0.0,
+  "final_firm_cash": 1613593.7524129315,
+  "money_supply": 0.0,
+  "loan_principal": 0.0,
+  "state_fingerprint": "676a665815bdec453531893d2c0b1737256090f4a657ae9651d295d6eadb1152",
+  "rng_fingerprint": "80e7b6f025dbd1f05be618082150aadc3618975fdc363de1ea4a663e5cda7431",
+  "peak_rss_bytes": 368558080,
+  "invariant_violations": 0,
+  "max_abs_monetary_accounting_gap": 0.0,
+  "max_abs_money_delta_gap": 0.0,
+  "max_abs_food_conservation_gap": 0.0,
+  "final_fund_cash": 0.0,
+  "recipient_event_count": 0,
+  "payg_cash_safety_audit_row_count": 0,
+  "household_liquidity_snapshot_row_count": 0,
+  "long_horizon_weekly_row_count": 520,
+  "long_horizon_household_snapshot_row_count": 103236,
+  "payg_cash_safety_first_negative_week": null,
+  "applied_overrides": {
+    "world.long_horizon_liquidity_enabled": true,
+    "world.long_horizon_liquidity_snapshot_cadence": 13,
+    "world.payg_cash_safety_audit_enabled": false,
+    "world.household_liquidity_snapshot_enabled": false
+  },
+  "effective_config": {
+    "branch_name": "CONTROL",
+    "checkpoint_path": "C:\\Users\\TOMZOU\\anaconda_projects\\socialsim\\test\\step17g_p9dc5anj\\common.pkl",
+    "task_seed": 42,
+    "world_seed": 42,
+    "steps": 520,
+    "scenario": "step15_mature_genealogy_private_support_experiment",
+    "firm_count": 1,
+    "diagnostics_mode": "compact",
+    "observability_mode": "RESEARCH_FAST",
+    "config_overrides": {
+      "world": {
+        "long_horizon_liquidity_enabled": true,
+        "long_horizon_liquidity_snapshot_cadence": 13,
+        "payg_cash_safety_audit_enabled": false,
+        "household_liquidity_snapshot_enabled": false
+      }
+    },
+    "checkpoint_metadata": {
+      "global_step": 0,
+      "scenario": "step15_mature_genealogy_private_support_experiment",
+      "observability_mode": "FULL_DIAGNOSTIC"
+    }
+  }
+}

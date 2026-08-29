@@ -1,0 +1,50 @@
+{
+    "experiment_name":  "step16_p2_2_neutral_branch_example",
+    "checkpoint_path":  "../output/step16_p2_1_branch_multiprocessing/benchmark_runs/common_state.pkl",
+    "output_root":  "../output/step16_p2_2_experiment_workflow_closeout",
+    "steps":  13,
+    "seed":  42,
+    "max_workers":  2,
+    "observability_mode":  "RESEARCH_FAST",
+    "diagnostics_mode":  "compact",
+    "resume":  true,
+    "branches":  [
+                     {
+                         "branch_name":  "CONTROL",
+                         "metadata":  {
+                                          "role":  "benchmark clone; no unfinished policy"
+                                      }
+                     },
+                     {
+                         "branch_name":  "TREATMENT_A",
+                         "config_overrides":  {
+                                                  "world":  {
+                                                                "observability_mode":  "RESEARCH_FAST"
+                                                            },
+                                                  "economy.config":  {
+
+                                                                     }
+                                              },
+                         "metadata":  {
+                                          "role":  "behavior-neutral benchmark clone"
+                                      }
+                     },
+                     {
+                         "branch_name":  "TREATMENT_B",
+                         "config_overrides":  {
+                                                  "world":  {
+                                                                "diagnostics_mode":  "compact"
+                                                            }
+                                              },
+                         "metadata":  {
+                                          "role":  "behavior-neutral benchmark clone"
+                                      }
+                     },
+                     {
+                         "branch_name":  "TREATMENT_C",
+                         "metadata":  {
+                                          "role":  "behavior-neutral benchmark clone"
+                                      }
+                     }
+                 ]
+}

@@ -1,0 +1,24 @@
+{
+  "branch_name": "CONTROL",
+  "checkpoint_path": "C:\\Users\\TOMZOU\\anaconda_projects\\socialsim\\test\\step17g_p9dc5anj\\common.pkl",
+  "task_seed": 42,
+  "world_seed": 42,
+  "steps": 520,
+  "scenario": "step15_mature_genealogy_private_support_experiment",
+  "firm_count": 1,
+  "diagnostics_mode": "compact",
+  "observability_mode": "RESEARCH_FAST",
+  "config_overrides": {
+    "world": {
+      "long_horizon_liquidity_enabled": true,
+      "long_horizon_liquidity_snapshot_cadence": 13,
+      "payg_cash_safety_audit_enabled": false,
+      "household_liquidity_snapshot_enabled": false
+    }
+  },
+  "checkpoint_metadata": {
+    "global_step": 0,
+    "scenario": "step15_mature_genealogy_private_support_experiment",
+    "observability_mode": "FULL_DIAGNOSTIC"
+  }
+}
